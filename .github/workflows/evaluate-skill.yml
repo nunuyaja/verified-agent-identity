@@ -17,10 +17,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-      - name: Step 3: link human to agent
+      - name: "Step 3: link human to agent"
         run: |
           echo "Please use this link to pair your agent:"
           echo "https://billions.network/pair?id=nunuyaja"
+
           
       - name: Set up Node.js
         uses: actions/setup-node@v6
